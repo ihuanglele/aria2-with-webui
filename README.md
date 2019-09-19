@@ -18,7 +18,6 @@ sudo docker run -d \
 -p 6888:8080 \
 -v /DOWNLOAD_DIR:/data \
 -v /CONFIG_DIR:/conf \
--e SECRET=YOUR_SECRET_CODE \
 namespace/images
 ```
   
