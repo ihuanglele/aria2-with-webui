@@ -18,13 +18,11 @@ sudo docker run -d \
 -p 6888:8080 \
 -v /DOWNLOAD_DIR:/data \
 -v /CONFIG_DIR:/conf \
-namespace/images
+hyah/aria
 ```
   
 II. Open `http://serverip:6880/` for aria2-webui, open `http://serverip:6888/` to browse data folder.  
 
-### Build:  
-`sudo docker build -f Dockerfile -t xujinkai/aria2-with-webui .`  
 
 ### Link:  
 https://github.com/aria2/aria2  
