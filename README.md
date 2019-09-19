@@ -19,7 +19,7 @@ sudo docker run -d \
 -v /DOWNLOAD_DIR:/data \
 -v /CONFIG_DIR:/conf \
 -e SECRET=YOUR_SECRET_CODE \
-xujinkai/aria2-with-webui
+namespace/images
 ```
   
 II. Open `http://serverip:6880/` for aria2-webui, open `http://serverip:6888/` to browse data folder.  
